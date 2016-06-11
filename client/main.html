@@ -38,8 +38,8 @@
         <link rel="stylesheet" href="assets/js/plugins/slick/slick-theme.min.css">
 
         <!-- Bootstrap and OneUI CSS framework -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" id="css-main" href="assets/css/oneui.css">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" id="css-main" href="/css/oneui.css">
 
         <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
         <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
@@ -50,8 +50,6 @@
 <body>
   <h1>Welcome to Meteor!</h1>
   {{> adminPanel}}
-  {{> hello}}
-  {{> info}}
 </body>
 <template name ="adminPanel">
 
@@ -1540,19 +1538,4 @@
                 App.initHelpers('slick');
             });
         </script>
-</template>
-
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
-
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com">Discussions</a></li>
-  </ul>
 </template>
