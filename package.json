@@ -2,7 +2,8 @@
   "name": "keela",
   "private": true,
   "engines":{
-   "node": "0.10.45"
+   "node": "0.10.45",
+   "npm": "1.4.23"
   },
   "scripts": {
     "start": "meteor run"
